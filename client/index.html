@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="client/style.css" />
+    <title>SPA SAMPLE</title>
+  </head>
+  <body>
+    <div class="main-layout">
+      <nav class="nav msb">
+        <div class="nav__logo">
+          <img class="mobile-logo" src="/client/assets/images/mobile-logo.png" alt="" />
+          <img class="logo" src="/client/assets/images/logo.png" alt="" />
+        </div>
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="/" class="nav__link" data-link>
+              <span class="nav__link-icon">
+                <i class="fas fa-home"></i>
+              </span>
+              <span class="nav__link-text">خانه</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="portfoilo" class="nav__link" data-link>
+              <span class="nav__link-icon">
+                <i class="far fa-images"></i>
+              </span>
+              <span class="nav__link-text">نمونه کار</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="group" class="nav__link" data-link="">
+              <span class="nav__link-icon">
+                <i class="fas fa-users"></i>
+              </span>
+              <span class="nav__link-text">تیم</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="aboutUs" class="nav__link" data-link>
+              <span class="nav__link-icon">
+                <i class="far fa-address-card"></i>
+              </span>
+              <span class="nav__link-text">درباره ما</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="contactUs" class="nav__link" data-link>
+              <span class="nav__link-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span class="nav__link-text">تماس با ما</span>
+            </a>
+          </li>
+        </ul>
+        <div class="nav__toggler">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </nav>
+      <main id="app"></main>
+    </div>
+
+    <script src="client/app.js" type="module"></script>
+  </body>
+</html>
